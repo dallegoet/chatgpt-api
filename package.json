@@ -1,0 +1,24 @@
+{
+  "name": "chatgpt-api",
+  "version": "1.0.0",
+  "description": "Interact with chatGPT from your code",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dallegoet/chatGPT-api.git"
+  },
+  "keywords": [
+    "chatGPT",
+    "api",
+    "puppeteer"
+  ],
+  "author": "Dimitri Allegoet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dallegoet/chatGPT-api/issues"
+  },
+  "homepage": "https://github.com/dallegoet/chatGPT-api#readme"
+}
