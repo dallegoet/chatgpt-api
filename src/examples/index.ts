@@ -5,12 +5,7 @@ dotenv.config();
 
 const client = new ChatGPTClient();
 client.loginFromNextAuthSessionToken(process.env.NEXT_AUTH_SESSION_TOKEN as string).then(async () => {
-  let messages = await client.write("combien font 18 + 7 ?");
-  console.log(messages);
-
-  messages = await client.write("et si tu ajoutes 12 ?");
-  console.log(messages);
-
-  messages = await client.write("peux tu me coder un composant reactjs qui ajoute deux nombres ?");
-  console.log(messages);
+  console.log(await client.write("combien font 20 + 20 ?"));
+  console.log(await client.write("et si tu ajoutes 2 ?"));
+  console.log(await client.write("est ce que le résultat de cette dernière opération ne serait pas la réponse ultime de la vie, en imaginant un peu ?"));
 });
