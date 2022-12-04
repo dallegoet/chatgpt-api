@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dallegoet/chatGPT-api.git"
+    "url": "git+ssh://git@github.com/dallegoet/chatgpt-api.git"
   },
   "keywords": [
     "chatGPT",
@@ -23,9 +23,9 @@
   "author": "Dimitri Allegoet",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dallegoet/chatGPT-api/issues"
+    "url": "https://github.com/dallegoet/chatgpt-api/issues"
   },
-  "homepage": "https://github.com/dallegoet/chatGPT-api#readme",
+  "homepage": "https://github.com/dallegoet/chatgpt-api#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "node-fetch": "2.6.7",
