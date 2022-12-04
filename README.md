@@ -23,7 +23,7 @@ console.log(await client.write("est ce la réponse de l'univers ?"));
 
 ### Will output :
 
-```json
+```
 [ '20 + 20 = 40.' ]
 [ 'Si on ajoute 2 à 20 + 20, on obtient 20 + 20 + 2 = 42.' ]
 [
