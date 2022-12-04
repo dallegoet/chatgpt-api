@@ -1,7 +1,7 @@
 # Installation
 
 ```shell
-npm install @dallegoet/chatgpt-api
+pnpm install @dallegoet/chatgpt-api
 ```
 
 # Usage
