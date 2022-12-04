@@ -1,6 +1,6 @@
 {
   "name": "@dallegoet/chatgpt-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Interact with chatGPT from your code",
   "main": "build/index.js",
   "types": "build/types.d.ts",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/dallegoet/chatGPT-api#readme",
   "dependencies": {
+    "@dallegoet/chatgpt-api": "^1.0.2",
     "dotenv": "^16.0.3",
     "node-fetch": "^3.3.0",
     "uuidv4": "^6.2.13"

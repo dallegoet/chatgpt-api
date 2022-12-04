@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@dallegoet/chatgpt-api': ^1.0.2
   '@types/node': ^18.11.10
   dotenv: ^16.0.3
   node-fetch: ^3.3.0
@@ -8,6 +9,7 @@ specifiers:
   uuidv4: ^6.2.13
 
 dependencies:
+  '@dallegoet/chatgpt-api': 1.0.2
   dotenv: 16.0.3
   node-fetch: 3.3.0
   uuidv4: 6.2.13
@@ -17,6 +19,14 @@ devDependencies:
   nodemon: 2.0.20
 
 packages:
+
+  /@dallegoet/chatgpt-api/1.0.2:
+    resolution: {integrity: sha512-THqAIzSxfWfkwetYCZPsOcr24tj+1Kc9Tfod4MnPOMzHAOkQJhoZHvofSuHOd5mBnzcVb0CdxEfGsbPFCoXVqg==}
+    dependencies:
+      dotenv: 16.0.3
+      node-fetch: 3.3.0
+      uuidv4: 6.2.13
+    dev: false
 
   /@types/node/18.11.10:
     resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==}
