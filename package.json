@@ -1,9 +1,9 @@
 {
   "name": "@dallegoet/chatgpt-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Interact with chatGPT from your code",
   "main": "build/index.js",
-  "types": "build/types.d.ts",
+  "types": "build/index.d.ts",
   "files": [
     "/build"
   ],
