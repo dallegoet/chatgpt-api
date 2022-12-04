@@ -1,6 +1,6 @@
 {
   "name": "@dallegoet/chatgpt-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interact with chatGPT from your code",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -8,7 +8,7 @@
     "/build"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf build && tsc",
     "build:watch": "nodemon -e ts --watch src/ --exec tsc"
   },
   "repository": {
@@ -18,7 +18,7 @@
   "keywords": [
     "chatGPT",
     "api",
-    "puppeteer"
+    "node-fetch"
   ],
   "author": "Dimitri Allegoet",
   "license": "ISC",
@@ -27,13 +27,15 @@
   },
   "homepage": "https://github.com/dallegoet/chatGPT-api#readme",
   "dependencies": {
-    "@dallegoet/chatgpt-api": "^1.0.2",
     "dotenv": "^16.0.3",
-    "node-fetch": "^3.3.0",
-    "uuidv4": "^6.2.13"
+    "node-fetch": "2.6.7",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
-    "nodemon": "^2.0.20"
+    "@types/node-fetch": "^2.6.2",
+    "@types/uuid": "^9.0.0",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2"
   }
 }
