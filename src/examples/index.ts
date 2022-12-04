@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import ChatGPTClient from "../chatGPTClient";
+import ChatGPTClient from "..";
 
 dotenv.config();
 
