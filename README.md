@@ -1,13 +1,13 @@
-# installation
+# Installation
 
 ```shell
-npm install @dallegoet/chatGPT-api
+npm install @dallegoet/chatgpt-api
 ```
 
-# usage
+# Usage
 
 ```typescript
-import ChatGPTClient from "../chatGPTClient";
+import ChatGPTClient from "@dallegoet/chatGPT-api";
 
 // you can find this token on https://chat.openai.com/chat
 // Open your dev tools, network tab, and check the cookie named : __Secure-next-auth.session-token
@@ -19,7 +19,7 @@ console.log(await client.write("et si tu ajoutes 2 ?"));
 console.log(await client.write("est ce la réponse de l'univers ?"));
 ```
 
-Output :
+### Will output :
 
 ```json
 [ '20 + 20 = 40.' ]
