@@ -1,10 +1,15 @@
 {
-  "name": "chatgpt-api",
+  "name": "@dallegoet/chatgpt-api",
   "version": "1.0.0",
   "description": "Interact with chatGPT from your code",
-  "main": "src/index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "/build"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "build:watch": "nodemon -e ts --watch src/ --exec tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/dallegoet/chatGPT-api/issues"
   },
-  "homepage": "https://github.com/dallegoet/chatGPT-api#readme"
+  "homepage": "https://github.com/dallegoet/chatGPT-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0",
+    "puppeteer": "^19.3.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
