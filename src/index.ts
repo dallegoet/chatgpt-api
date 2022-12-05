@@ -32,7 +32,12 @@ export default class ChatGPTClient {
       },
     });
 
-    const { accessToken } = (await response.json()) as { accessToken: string };
+    const { accessToken, error } = (await response.json()) as { accessToken: string; error?: string };
+
+    if (error) {
+      throw new Error(`you next auth session token has probably expired. Get a new on https://chat.openai.com/chat. Original error : ${error}`);
+    }
+
     this.accessToken = accessToken;
   }
 
